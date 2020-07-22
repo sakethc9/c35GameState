@@ -7,17 +7,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
+    
 
     <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
 
     <script>
-      // Your web app's Firebase configuration
+      
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAoSxnJNJo4gYmA3apvWdVKeyeC8UzQNe4",
+    authDomain: "c34-carracing-35b11.firebaseapp.com",
+    databaseURL: "https://c34-carracing-35b11.firebaseio.com",
+    projectId: "c34-carracing-35b11",
+    storageBucket: "c34-carracing-35b11.appspot.com",
+    messagingSenderId: "510488049684",
+    appId: "1:510488049684:web:e95f9c738a7687558c0f01",
+    measurementId: "G-66769SEJJ0"
+  };
+ 
       //add here
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
     </script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Player.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
